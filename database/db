@@ -1,0 +1,45 @@
+/*
+create database TP4ECOMMERCE;
+*/
+
+/*
+CREATE TABLE Rubro (
+	idRubro int auto_increment not null primary key,
+    descripcion varchar(3000) not null
+    );
+  */  
+/*
+CREATE TABLE PRODUCTOS (
+	idProducto INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    descripción VARCHAR(3000) NOT NULL,
+    id_Rubro INT,
+    precio DECIMAL(15,2),
+    url_Imagen VARCHAR(3000),
+	FOREIGN KEY (id_Rubro) REFERENCES Rubro(idRubro)
+    );
+*/
+
+/*
+insert into Rubro (descripcion) values
+("Mates"),
+("Yerbas"),
+("Bombillas");
+*/
+/*
+INSERT INTO productos (descripción, id_Rubro, precio, url_Imagen) VALUES 
+('MATE IMPERIAL NEGRO', 1, 69900.00, 'https://d22fxaf9t8d39k.cloudfront.net/b6d9b5857676781480b8e958527a365647f33f7da322bdec6693bc59550591f719762.jpg'), 
+('MATE IMPERIAL ALGARROBO', 1, 49990.00, 'https://d22fxaf9t8d39k.cloudfront.net/ee06090a8cf2776a4e3d01b66989245ff4d144f90a35999ed3af1aff1507963719762.jpg'), 
+('MATE CRIOLLO', 1, 35900.00, 'https://d22fxaf9t8d39k.cloudfront.net/ff6a886112edd56c7bc9befb728d2020faef85619ebfc275be1919910567dff219762.jpg'), 
+
+('YERBA CANARIAS 1KG', 2, 11500.00, 'https://d22fxaf9t8d39k.cloudfront.net/22c4aeb257f87acf43e507f4edd53fad2bf1ed5387d3cae7cc11c9555b95047c19762.jpg'), 
+('YERBA BALDO', 2, 14500.00, 'https://d22fxaf9t8d39k.cloudfront.net/c985ba3656432c2d373705fe68882e1824eaa7fe6116a4dc19a2080ae16eca8a19762.jpg'), 
+('YERBA CANARIAS SERENA 1KG', 2, 12500.00, 'https://d22fxaf9t8d39k.cloudfront.net/1b229c7be3e4ba59bcf1f83dda8321d1928eb0770aa013a24bdaff4fae6082c119762.jpg'), 
+
+('BOMBILLA PICO DE LORO ACERO', 3, 13900.00, 'https://d22fxaf9t8d39k.cloudfront.net/18b89e7248b473dd9093f234b047e7af6c768d41c5e0ab7ee25ef98eeadc30fa19762.jpeg'),
+('BOMBILLON DELUXE', 3, 39990.00, 'https://d22fxaf9t8d39k.cloudfront.net/191168ba71103fe4e990811e5a8c028a1c008b557951ad7a1c2c9b4195efe22f19762.jpg'),
+('BOMBILLA PICO REY LISO', 3, 34990.000, 'https://d22fxaf9t8d39k.cloudfront.net/8ea56716d8f65ef7e24c56f21c1937ec581caa9e33de662d737c90fe3c88376519762.png');
+*/
+/*
+INSERT INTO productos (descripción, id_Rubro, precio, url_Imagen) VALUES 
+('MATE IMPERIAL DELUXE BLANCO', 1, 64990.00, 'https://d22fxaf9t8d39k.cloudfront.net/eac8d7c1c8cc23989b279e6f3c91d5746b7fa1511e09188c42985dfa53089ccb19762.jpg');
+*/

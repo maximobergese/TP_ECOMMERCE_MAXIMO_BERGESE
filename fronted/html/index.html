@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>MateAndo</h1>
+    </header>
+
+    <section class="filtros">
+        <label for="select-rubro">Filtrar por rubro:</label>
+        <select id="select-rubro">
+            <option value="todos">Todos</option>
+        </select>
+    
+        <label for="input-busqueda">Buscar por descripción:</label>
+        <input type="text" id="input-busqueda" placeholder="Descripción del producto">
+    
+        <button id="btn-ver-lista">Ver en Lista</button>
+        <button id="btn-ver-cuadricula">Ver en Cuadrícula</button>
+    </section>
+    
+
+    <div id="contenedor-productos" class="grid-view"></div>
+
+
+    <script src="../scripts/script.js"></script>
+    
+    <footer>
+        <h4>TP eCommerce</h4>
+        <h4>Programación - Máximo Bergese</h4>
+    
+    </footer>
+    
+</body>
+</html>
